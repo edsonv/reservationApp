@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title></title>
+</head>
+
+<body>
+    <div class="container" id="confirmation-card">
+        <div class="row" id="nav-search-bar">
+            <div class="col-sm-6 text-center">
+                <a href="#"><i class="fa fa-angle-left fa-2x" id="left-angle"></i></a>
+            </div>
+            <div class="col-sm-6 text-center">
+                <a href=""><i class="fa fa-search fa-2x" id="search"></i></a>
+            </div>
+        </div>
+        <div class="row" id="header">
+            <div class="col-sm-12 text-center">
+                <img src="img/logo.jpg">
+                <!-- <img src="http://placehold.it/100x100"> -->
+                <h1>THE WATER CLUB</h1>
+            </div>
+        </div>
+        <div class="row" id="table-for">
+            <div class="col-sm-12 text-center">
+                <h2>Table For</h2>
+            </div>
+            <div class="row" id="selector">
+                <div class="col-sm-4 text-right">
+                    <button type="button" class="fa fa-minus fa-1x" id="less"></button>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <p class="people">2</p>
+                </div>
+                <div class="col-sm-4 text-left">
+                    <button type="button" class="fa fa-plus" id="more"></button>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="date-time">
+            <div class="col-sm-12 text-center">
+                <h2>Choose Date & Time</h2>
+                <!--    <p>12 APR 2017 - 10:30</p>    -->
+                <input type="datetime-local" class="datetime">
+            </div>
+        </div>
+        <div class="confirmation-button row">
+            <div class="col-sm-12 text-center">
+                <button type="button">CONFIRM</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
